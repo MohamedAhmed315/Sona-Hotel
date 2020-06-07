@@ -58,9 +58,10 @@ header {
 }
 
 .dropdown {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     border: solid 2px #dfa974;
     border-radius: 10px;
+    max-width: fit-content;
 }
 
 .nav-item .fa {
@@ -69,6 +70,11 @@ header {
     margin-left: 5px;
     margin: 10px 5px 0 5px;
     font-size: 20px;
+}
+
+.header-social {
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
 
 .header-social a:hover {
@@ -397,8 +403,8 @@ a.more-events {
     background-color: #222736;
     color: seashell;
     /* padding-top: 80px; */
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 #footer .col-lg-4 p {

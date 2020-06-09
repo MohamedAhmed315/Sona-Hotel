@@ -45,7 +45,7 @@ header {
     margin-right: 5px;
 }
 
-.dropdown-item:hover {
+.dropdown .dropdown-item:hover {
     background-color: #dfa974;
     transition: 0.5s;
 }
